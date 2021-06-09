@@ -32,10 +32,8 @@ const generateComputerChoice = () => {
 const getResult = () => {
   if (userChoice === computerChoice) {
     result = "It's a draw !";
-    resultDisplay.innerHTML = result;
   } else if (userChoice === 'rock' && computerChoice === 'scissors') {
     result = 'You won !';
-    resultDisplay.innerHTML = result;
   } else if (userChoice === 'rock' && computerChoice === 'paper') {
     result = 'You lost!';
   } else if (userChoice === 'paper' && computerChoice === 'scissors') {
