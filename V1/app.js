@@ -26,7 +26,6 @@ const generateComputerChoice = () => {
   }
 
   computerChoiceDisplay.innerHTML = computerChoice;
-  return computerChoice;
 };
 
 const getResult = () => {
